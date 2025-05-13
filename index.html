@@ -43,7 +43,7 @@
             height: 300px;
             object-fit: cover;
             filter: grayscale(100%);
-            border-radius: 8px;
+            /* object-position: 15% 50%; */
         }
 
         h1 {
@@ -104,10 +104,14 @@
     <div class="container">
         <div class="column">
             <div class="image-pair">
-                <img class="hero-image" src="https://images.unsplash.com/photo-1586875401592-64f1d5cb43e4"
-                    alt="Burning incense stick">
-                <img class="hero-image" src="https://images.unsplash.com/photo-1627769792188-d3f9f59833e5"
-                    alt="Incense holder and smoke">
+                <video class="hero-image" autoplay muted loop playsinline>
+                    <source src="gracious_incense_01.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video class="hero-image" autoplay muted loop playsinline>
+                    <source src="gracious_incense_02.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
         <div class="column">
@@ -122,11 +126,11 @@
             </div>
             <div class="price">$5 per pack (20 sticks)</div>
             <div class="scents">
-                <i>Available Scents</i><br>
+                <i><u>Available Scents</u></i><br>
                 Palo Santo · Baby Powder · Wild Sage & Aloe · Sandalwood
             </div>
             <div class="retail">
-                <i>Available Retailers</i><br>
+                <i><u>Available Retailers</i></u></i><br>
                 <strong>Broadway Liquor</strong><br>
                 2860 Broadway, Oakland, CA 94611
             </div>
