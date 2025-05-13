@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rith Aroma | Internal Insights Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+            background-color: #f8f5f2;
+            color: #333;
+        }
+
+        h1,
+        h2 {
+            color: #5a4a42;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            max-width: 100%;
+        }
+
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 300%;
+        }
+
+        .persona {
+            flex: 0 0 100%;
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1rem;
+        }
+
+        .journey-table table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        .journey-table th,
+        .journey-table td {
+            border: 1px solid #ddd;
+            padding: 0.75rem;
+            vertical-align: top;
+        }
+
+        .journey-table th {
+            background-color: #eee;
+            text-align: left;
+        }
+
+        blockquote {
+            font-style: italic;
+            margin-top: 1rem;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🌿 Rith Aroma Internal Insights Portal</h1>
+    <p><em>Helping Us Understand Who We Serve and How They Experience Us</em></p>
+
+    <div class="section">
+        <h2>🧟‍♀️ User Personas</h2>
+        <div class="carousel">
+            <div class="carousel-inner" id="carousel-inner">
+                <div class="persona">
+                    <h3>Lina Chen</h3>
+                    <ul>
+                        <li><strong>Age:</strong> 33</li>
+                        <li><strong>Occupation:</strong> Wellness Blogger & Yoga Instructor</li>
+                        <li><strong>Location:</strong> San Diego, CA</li>
+                        <li><strong>Income Range:</strong> $45,000–$60,000</li>
+                        <li><strong>Values:</strong> Sustainability, mindfulness, community, natural healing</li>
+                        <li><strong>Goals:</strong> High-quality products, support ethical brands, create a calming home
+                        </li>
+                        <li><strong>Challenges:</strong> Overwhelming options, sensitive skin, transparency</li>
+                        <li><strong>Preferred Platforms:</strong> Instagram, Pinterest, Etsy</li>
+                    </ul>
+                    <blockquote>“I want my space to smell like peace. I buy with purpose.”</blockquote>
+                </div>
+                <div class="persona">
+                    <h3>Jordan Reyes</h3>
+                    <ul>
+                        <li><strong>Age:</strong> 28</li>
+                        <li><strong>Occupation:</strong> Tech Professional, Remote Worker</li>
+                        <li><strong>Location:</strong> Portland, OR</li>
+                        <li><strong>Income Range:</strong> $70,000–$90,000</li>
+                        <li><strong>Values:</strong> Simplicity, clean design, natural wellness</li>
+                        <li><strong>Goals:</strong> Curate a minimalist home with scent and mood</li>
+                        <li><strong>Challenges:</strong> Easily distracted by big brand ads, prefers minimal packaging
+                        </li>
+                        <li><strong>Preferred Platforms:</strong> Reddit, Instagram, Substack</li>
+                    </ul>
+                    <blockquote>“I want simple, honest products that feel like a breath of fresh air.”</blockquote>
+                </div>
+                <div class="persona">
+                    <h3>Sophia Martinez</h3>
+                    <ul>
+                        <li><strong>Age:</strong> 40</li>
+                        <li><strong>Occupation:</strong> Middle School Teacher</li>
+                        <li><strong>Location:</strong> Austin, TX</li>
+                        <li><strong>Income Range:</strong> $50,000–$65,000</li>
+                        <li><strong>Values:</strong> Education, family wellness, cultural connection</li>
+                        <li><strong>Goals:</strong> Create rituals for self-care and pass down cultural traditions</li>
+                        <li><strong>Challenges:</strong> Budget-conscious, sensitive to artificial smells</li>
+                        <li><strong>Preferred Platforms:</strong> Facebook, Pinterest, YouTube</li>
+                    </ul>
+                    <blockquote>“Aromas bring calm to my classroom and care to my home.”</blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button onclick="moveSlide(-1)">&larr; Previous</button>
+            <button onclick="moveSlide(1)">Next &rarr;</button>
+        </div>
+    </div>
+
+    <div class="section journey-table">
+        <h2>🚶‍♀️ Customer Journey Map</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Stage</th>
+                    <th>Thoughts & Feelings</th>
+                    <th>Actions</th>
+                    <th>Touchpoints</th>
+                    <th>Opportunities</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Awareness</td>
+                    <td>“I’m stressed lately. I need something calming.”</td>
+                    <td>Browses Instagram for wellness tips</td>
+                    <td>Instagram Ad, Influencer Post</td>
+                    <td>Share calming rituals using Rith Aroma products</td>
+                </tr>
+                <tr>
+                    <td>Consideration</td>
+                    <td>“Is this brand legit? Are the ingredients clean?”</td>
+                    <td>Reads site, checks reviews, browses product info</td>
+                    <td>Website, Testimonials, Ingredient Lists</td>
+                    <td>Highlight certifications and sourcing transparency</td>
+                </tr>
+                <tr>
+                    <td>Purchase</td>
+                    <td>“I’ll try the starter incense set.”</td>
+                    <td>Adds item to cart, applies discount</td>
+                    <td>Online Store, Checkout Process</td>
+                    <td>Offer welcome code, simplify checkout</td>
+                </tr>
+                <tr>
+                    <td>Retention</td>
+                    <td>“I loved the lemongrass scent—what else do they have?”</td>
+                    <td>Looks for bundles or refills</td>
+                    <td>Email Follow-up, Instagram Highlights</td>
+                    <td>Suggest related products post-purchase</td>
+                </tr>
+                <tr>
+                    <td>Advocacy</td>
+                    <td>“I need to tell my friends about this brand!”</td>
+                    <td>Shares photo, leaves review, tags brand</td>
+                    <td>User-Generated Content (UGC), Reviews</td>
+                    <td>Repost content, thank users, offer referral codes</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        function moveSlide(direction) {
+            const carouselInner = document.getElementById("carousel-inner");
+            const totalSlides = carouselInner.children.length;
+            currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+            carouselInner.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+    </script>
+</body>
+
+</html>
